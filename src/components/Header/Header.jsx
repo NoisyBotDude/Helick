@@ -14,7 +14,7 @@ export default function Header() {
                     <div className="logo"> <a href="/"><img src={logo} alt="logo" width="140" height="60" /></a></div>
                     <Nav className='mx-auto naav justify-content-end'>
                         <Link to="/" ><span className="navlnk">Home</span></Link>
-                        <Link to="/" ><span className="navlnk">Products</span></Link>
+                        <Link to="/products" ><span className="navlnk">Products</span></Link>
                         <Link to="/" ><span className="navlnk">Partnership</span></Link>
                         <Link to="/contact" ><span className="navlnk">Contact Us </span></Link>
                         <Link to="/about" ><span className="navlnk">About Us </span></Link>
@@ -36,7 +36,7 @@ export default function Header() {
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu align="end">
                                     <Dropdown.Item href="/" >Home</Dropdown.Item>
-                                    <Dropdown.Item href="/" >Products</Dropdown.Item>
+                                    <Dropdown.Item href="/products" >Products</Dropdown.Item>
                                     <Dropdown.Item href="/" >Partnership</Dropdown.Item>
                                     <Dropdown.Item href="/contact" >Contact Us </Dropdown.Item>
                                     <Dropdown.Item href="/about" >About Us </Dropdown.Item>
